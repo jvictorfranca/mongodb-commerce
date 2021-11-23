@@ -1,6 +1,5 @@
-
 db.produtos.updateMany(
-  {}, {$push: {tags:{$each: ['tasty', 'combo'], $sort: 1}}}
-)
+  {}, { $push: { tags: { $each: ["tasty", "combo"], $sort: 1 } } },
+);
 
-db.produtos.find({}, {_id: false, nome:true, tags:true});
+db.produtos.find({}, { _id: false, nome: true, tags: true });
