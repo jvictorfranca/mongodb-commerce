@@ -1,0 +1,4 @@
+DBNAME=commerce ./scripts/resetdb.sh assets/produtos
+
+
+./scripts/evaluate.sh desafioN
